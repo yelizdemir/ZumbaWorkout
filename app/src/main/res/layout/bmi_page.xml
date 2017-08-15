@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <Button
+
+        style="@style/btn"
+        android:text="Calculate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:id="@+id/bcalculate"
+        android:layout_below="@+id/et_h"
+        android:layout_alignRight="@+id/et_h"
+        android:layout_alignEnd="@+id/et_h"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="Result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bcalculate"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:textSize="20dp"
+        android:id="@+id/text_result" />
+
+    <TextView
+        android:text="Weight (kg)"
+        android:gravity="left|center"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:id="@+id/text_w"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_centerHorizontal="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:id="@+id/et_weight"
+        android:layout_alignBaseline="@+id/text_w"
+        android:layout_alignBottom="@+id/text_w"
+        android:layout_toRightOf="@+id/text_w"
+        android:layout_toEndOf="@+id/text_w"
+        android:layout_marginLeft="36dp"
+        android:layout_marginStart="36dp" />
+
+    <TextView
+        android:text="height (m)"
+        android:gravity="left|center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="58dp"
+        android:id="@+id/text_h"
+        android:layout_below="@+id/et_weight" />
+
+    <EditText
+        android:layout_centerHorizontal="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:id="@+id/et_h"
+        android:layout_alignBaseline="@+id/text_h"
+        android:layout_alignBottom="@+id/text_h"
+        android:layout_alignLeft="@+id/et_weight"
+        android:layout_alignStart="@+id/et_weight" />
+
+    <TextView
+
+        android:text="Message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="67dp"
+        android:id="@+id/text_msg"
+        android:textSize="20dp"
+        android:layout_below="@+id/text_result"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

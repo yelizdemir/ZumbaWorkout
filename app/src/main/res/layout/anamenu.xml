@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_page"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.yelizdemir93.zumbaworkoutapp.FragAnaMenu">
+
+    <LinearLayout
+        android:id="@+id/liner1"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp">
+
+        <ImageView android:clickable="true"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/p1"
+            android:id="@+id/ib_pedometer"
+            android:layout_weight="1" />
+
+        <ImageView android:clickable="true"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/p2"
+            android:id="@+id/ib_zumba"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/liner2"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        android:layout_below="@+id/liner1"
+        android:layout_marginTop="10dp">
+
+        <ImageView android:clickable="true"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/p3"
+            android:id="@+id/ib_kalori"
+            android:layout_weight="1" />
+
+        <ImageView android:clickable="true"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/p4"
+            android:id="@+id/ib_bmi"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        android:id="@+id/liner3"
+        android:layout_below="@+id/liner2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp">
+
+        <ImageView android:clickable="true"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/p5"
+            android:id="@+id/ib_basal"
+            android:layout_weight="1" />
+
+        <ImageView android:clickable="true"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/p6"
+            android:id="@+id/ib_ideal"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+</LinearLayout>

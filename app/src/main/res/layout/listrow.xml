@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+    <LinearLayout
+
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="72dp">
+
+        <ImageView
+            android:layout_width="72dp"
+            android:gravity="left|center"
+            android:layout_height="62dp"
+            app:srcCompat="@mipmap/ic_launcher"
+            android:id="@+id/imageView"
+            android:layout_weight="0.0"
+             />
+
+        <TextView
+
+            android:id="@+id/tvVideoAd"
+            android:paddingLeft="10dp"
+            android:text="Yeliz"
+            android:textSize="20dp"
+            android:gravity="left|center"
+            android:textStyle="bold"
+
+            android:layout_width="wrap_content"
+            android:layout_height="62dp"
+            android:layout_weight="1"/>
+
+        <ImageButton
+            style="@style/btn"
+            android:layout_width="50dp"
+            android:layout_height="62dp"
+            app:srcCompat="@android:drawable/ic_media_play"
+            android:id="@+id/imageButtonOynat"
+            android:gravity="center"
+            android:layout_weight="0.0"
+            />
+
+
+    </LinearLayout>
+
+</LinearLayout>
+

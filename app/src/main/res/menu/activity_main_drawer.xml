@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_pedometer"
+            android:icon="@drawable/ic_pedometer"
+            android:title="Pedometer" />
+        <item
+            android:id="@+id/nav_zumba"
+            android:icon="@drawable/ic_action_zumba"
+            android:title="Zumba Videos" />
+        <item
+            android:id="@+id/nav_kcal"
+            android:icon="@drawable/ic_kcal"
+            android:title="Kcal" />
+        <item
+            android:id="@+id/nav_bmi"
+            android:icon="@drawable/ic_bmi"
+            android:title="BMI" />
+        <item
+            android:id="@+id/nav_basal"
+            android:icon="@drawable/ic_basal"
+            android:title="Basal Metabolism" />
+        <item
+            android:id="@+id/nav_ideal"
+            android:icon="@drawable/ic_ideal"
+            android:title="Ideal Weight" />
+        <item
+            android:id="@+id/nav_favorite"
+            android:icon="@drawable/ic_favorite"
+            android:title="Favorite" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_ayarlar"
+            android:title="Settings" />
+
+    </group>
+
+</menu>
